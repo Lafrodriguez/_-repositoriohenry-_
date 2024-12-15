@@ -1,0 +1,60 @@
+body {
+    background-color:antiquewhite;
+}
+
+.title{
+    font-size: 3em;
+    color: cornflowerblue;
+}
+
+.logo{
+
+    width: 200px;
+    height: 200px;
+}
+
+.primerlorem{
+    font-size: 20px;
+}
+
+#caballo{
+    font-size: 1em;
+}
+#titulos{
+    
+    width: 65vw;
+    margin: auto;
+    padding: 5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    border: 2px solid rgb(140, 221, 140);
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 5%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: blue;
+}
+
+#cards-container{
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(46, 40, 40);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
